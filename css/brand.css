@@ -1,0 +1,146 @@
+/* home baground pic styling */
+.brandd{
+   background:url(../images/banner-brand.jpeg) no-repeat;
+   background-size: cover;
+   background-position: center;
+
+
+}
+
+.brandss div{
+   overflow: hidden;
+}
+
+
+.brandd .content{
+   width: 55rem;
+   padding:2rem;
+}
+
+.brandd .content h3{
+   
+   
+   color:var(--black);
+   
+   font-family: 'PT Serif';
+   font-size: 39px;
+  
+  
+}
+
+.brandd .content p{
+   line-height: 2;
+   font-size: 1.5rem;
+   color:var(--light-color);
+   padding:1rem 0;
+   text-align: center;
+}
+
+.brandss div img{
+
+   background-size: cover;
+   /* width: 100%;
+   height:100%; */
+
+}
+
+
+
+@media (max-width:768px){
+
+   
+
+   .brandd{
+      background-position: left;
+   }
+
+   .brandd .content{
+      width: auto;
+   }
+
+}
+
+@media (max-width:450px){
+
+   
+
+   .brandd .content h3{
+      font-size: 4rem;
+   }
+
+   
+}
+
+
+
+/* for brands styling  */
+
+/* 
+.brandss{
+
+   border: 1px solid;
+   font-family: 'Poppins', sans-serif;
+   background-color: #00b8b8;
+   padding: 50px;
+   border-radius: 10px;
+   color: #eee;
+   font-size:medium;
+   box-shadow: 4px 4px 10px rgb(155, 155, 155);
+}
+
+.brandss div{
+   margin: auto;
+   text-align: left;
+   width: 85%;
+}
+
+.brandss div hr{
+
+   opacity: 0;
+
+
+}
+
+
+
+
+@media (max-width:991px){
+
+   .brandss{
+
+      padding: 25px;
+      font-size: small;
+
+
+   }
+
+   .brandss div{
+      width: 95%;
+   }
+
+}
+
+@media (max-width:768px){
+
+  .brandss{
+
+      padding: 15px;
+      font-size: small;
+   }
+   .brandss div{
+      width: 95%;
+   }
+ 
+}  
+
+@media (max-width:450px){
+
+   .brandss{
+
+      padding: 10px;
+      font-size: small;
+   }
+   .brandss div{
+      width: 95%;
+   }
+} */
